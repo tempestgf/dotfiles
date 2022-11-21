@@ -28,7 +28,7 @@ exec_always feh --no-fehbg --bg-scale $HOME/Pictures/Background/background.jpg
 
 # Polybar launch choosing theme
 exec_always --no-startup-id killall -q
-#exec_always --no-startup-id $HOME/.config/polybar/cuts/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/cuts/launch.sh
 exec_always --no-startup-id $HOME/.config/polybar/cuts/scripts/colors-dark.sh --red
 
 # run battery low warning (only for my laptop)
