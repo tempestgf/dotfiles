@@ -4,7 +4,7 @@
 PFILE="$HOME/.config/polybar/cuts/colors.ini"
 RFILE="$HOME/.config/polybar/cuts/scripts/rofi/colors.rasi"
 
-BG="0a0a0a"
+BG="292929"
 FG="f5f5f5"
 
 # Change colors
