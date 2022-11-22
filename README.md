@@ -21,7 +21,7 @@ This is the third version of my dotfiles, as I gain more experience I am able to
 
 - **OS:** [Arch Linux](https://archlinux.org)
 - **Window Manager:** [i3-gaps](https://github.com/Airblader/i3)
-- **Terminal:** [alacritty](https://github.com/alacritty/alacritty)
+- **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
 - **NavBar:** [polybar](https://github.com/polybar/polybar)
 - **Shell:** [zsh](https://www.zsh.org/)
 - **Compositor:** [picom](https://github.com/yshui/picom)
