@@ -17,6 +17,9 @@ font pango:Iosevka 11
 # run picom
 exec_always --no-startup-id picom &
 
+# run VboxClient-all the features like dragndrop
+exec_always --no-startup-id VBoxClient-all &
+
 # run mpd
 exec_always --no-startup-id mpd &
 
