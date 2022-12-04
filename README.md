@@ -12,7 +12,7 @@ The **Arch Linux** & **i3wm** fastest dotfiles.
 
 This is the third version of my dotfiles, as I gain more experience I am able to create more profesional dotfiles.
 
-![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/1.png?raw=true)
+![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/aperturadesk.png?raw=true)
 
 [![](https://img.shields.io/github/stars/tempestgf/dotfiles?color=dd864a&labelColor=1b1b25&style=for-the-badge)](https://github.com/Keyitdev/dotfiles/stargazers)
 [![](https://img.shields.io/github/forks/tempestgf/dotfiles?color=bf616a&labelColor=1b1b25&style=for-the-badge)](https://github.com/Keyitdev/dotfiles/network/members)
