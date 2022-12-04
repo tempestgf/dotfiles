@@ -79,7 +79,7 @@ Detailed information and dependencies
 |rofi & dunst|nemo & nvim & ranger|
 |![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/3.png?raw=true)|![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/4.png?raw=true)|
 |i3lock-color|sddm|
-|![](https://github.com/tempestgf/dotfiles/tree/main/Showcase/i3lock-color.png?raw=true)|![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/6.png?raw=true)|
+|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/i3lock-color.png?raw=true)|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/sddm.png?raw=true)|
 
 ## Installation
 
