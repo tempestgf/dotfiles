@@ -1,12 +1,13 @@
 # Tempestgf Dotfiles  
 
-**[Arch Linux](https://github.com/tempestgf/ArchLinux)** dotfiles.
+**[Arch Linux](https://github.com/tempestgf/ArchLinux)** dotfiles. 
 
 [Showcase](#showcase) ·
 [Infromació](#informació) ·
 [Instal·lació](#installació) ·
 [Cheat sheet](#cheat-sheet) ·
-[Suport](#suport)
+[Suport](#suport) ·
+[En](https://github.com/tempestgf/dotfiles/blob/main/README.md) 
 
 **i3wm** és un gestor de finestres de mosaic antic molt senzill, però encara és potent i altament configurable. Tot i que es necessita temps i esforç per configurar-lo.
 
