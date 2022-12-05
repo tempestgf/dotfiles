@@ -14,8 +14,8 @@ This is the third version of my dotfiles, as I gain more experience I am able to
 
 ![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/aperturadesk.png?raw=true)
 
-[![](https://img.shields.io/github/stars/tempestgf/dotfiles?color=dd864a&labelColor=1b1b25&style=for-the-badge)](https://github.com/Keyitdev/dotfiles/stargazers)
-[![](https://img.shields.io/github/forks/tempestgf/dotfiles?color=bf616a&labelColor=1b1b25&style=for-the-badge)](https://github.com/Keyitdev/dotfiles/network/members)
+[![](https://img.shields.io/github/stars/tempestgf/dotfiles?color=dd864a&labelColor=1b1b25&style=for-the-badge)](https://github.com/tempestgf/dotfiles/stargazers)
+[![](https://img.shields.io/github/forks/tempestgf/dotfiles?color=bf616a&labelColor=1b1b25&style=for-the-badge)](https://github.com/tempestgf/dotfiles/network/members)
 [![](https://img.shields.io/github/license/tempestgf/dotfiles?color=999f63&labelColor=1b1b25&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.html)
 ## Information
 
@@ -80,10 +80,10 @@ acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit l
 
 Clone the repository.
 ```sh
-git clone -b v3 --depth 1 https://www.github.com/keyitdev/dotfiles.git
+git clone -b v3 --depth 1 https://www.github.com/tempestgf/dotfiles.git
 cd dotfiles
-chmod +x install-on-arch.sh
-./install-on-arch.sh
+chmod +x install.sh
+./install.sh
 ```
 
 ### Manual Installation
