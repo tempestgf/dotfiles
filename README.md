@@ -1,6 +1,6 @@
 # Tempestgf Dotfiles  
 
-The **Arch Linux** & **i3wm** fastest dotfiles.
+**Arch Linux** dotfiles.
 
 [Showcase](#showcase) ·
 [Information](#information) ·
@@ -35,39 +35,32 @@ Detailed information and dependencies
 
 ### Info
 
-**Music Player:** [mpd](https://github.com/MusicPlayerDaemon/MPD) & [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)    
-**Editor:** [neovim](https://github.com/neovim/neovim) / [vscode](https://github.com/microsoft/vscode)    
+**Music Player:** [mpd](https://github.com/MusicPlayerDaemon/MPD)   
+**Editor:** [neovim](https://github.com/neovim/neovim) / [vim](https://www.vim.org/)    
 **Lockscreen:** [i3lock-color](https://github.com/Raymo111/i3lock-color)    
 **Display Manager:** [sddm](https://github.com/sddm/sddm)    
 **File manager:** [ranger](https://github.com/ranger/ranger) / [nemo](https://github.com/linuxmint/nemo)    
-**Pdf reader:** [zathura](https://github.com/pwmt/zathura)    
 **Monitor of Resources:** [btop](https://github.com/aristocratos/btop)    
 
 ### Used themes
 
 **Shell Framework:** [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh)    
 **Vscode Theme:** [One dark pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)    
-**Neovim Theme:** [AstroNvim](https://github.com/kabinspace/AstroVim)    
-**Icons:** [Papirus dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)    
+**Neovim Theme:** [AstroNvim](https://github.com/kabinspace/AstroVim) & [Cyberpunk](https://github.com/thedenisnikulin/vim-cyberpunk)
+**Icons:** [Nerd Fonts](https://www.nerdfonts.com/)    
 **GTK Theme:** [Tokyo night](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme)    
-**Display Manager Theme:** [Sddm-flower-theme](https://github.com/Keyitdev/sddm-flower-theme)    
+**Display Manager Theme:** [sddm-slice](https://github.com/EricKotato/sddm-slice)    
 	
 ### Fonts
 	
-**Icons:** [Feather](https://github.com/AT-UI/feather-font/blob/master/src/fonts/feather.ttf)    
+**Icons:** [Nerd Fonts](https://www.nerdfonts.com/)   
 **Interface Font:** [Open sans](https://fonts.google.com/specimen/Open+Sans#standard-styles)    
 **Monospace Font:** [Roboto mono](https://fonts.google.com/specimen/Roboto+Mono#standard-styles)    
 **Polybar Font:** [Iosevka nerd font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)
 
 ### Dependencies
 
-**Base:** acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit 
-
-**Required:** alacritty btop code dunst feh ffcast firefox i3-gaps i3lock-color i3-resurrect libnotify light mpc mpd ncmpcpp nemo neofetch neovim oh-my-zsh-git pacman-contrib papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura zathura-pdf-mupdf zsh
-
-**Sddm:** qt5-graphicaleffects qt5-quickcontrols2 qt5-svg sddm
-
-**Emoji:** fonts: noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit libcurl-gnutls dbus dbus-python python-pip python3 cmake qt5-graphicaleffects spotify-launcher python3 wget mpd kitty btop dunst feh firefox i3-gaps libnotify neofetch neovim picom polybar ranger rofi scrot slop xclip zsh lsd bat
 
 </details>
 
