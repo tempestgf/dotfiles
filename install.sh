@@ -1,11 +1,11 @@
-sudo pacman -Sy archlinux-keyring
-sudo pacman -Syyu
-sudo pacman -Sy virtualbox-guest-utils
+sudo pacman --noconfirm -Sy archlinux-keyring
+sudo pacman --noconfirm -Syyu
+sudo pacman --noconfirm -Sy virtualbox-guest-utils
 sudo systemctl enable vboxservice.service
 sudo systemctl start vboxservice.service
 VBoxClient-all
 
-1 \n | sudo pacman -Sy base-devel
+1 \n | sudo pacman --noconfirm -Sy base-devel
 sudo pacman --noconfirm -Sy acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit libcurl-gnutls dbus dbus-python python-pip python3 cmake qt5-graphicaleffects spotify-launcher python3 wget mpd kitty btop dunst feh firefox i3-gaps libnotify neofetch neovim picom polybar ranger rofi scrot slop xclip zsh lsd bat
 
 git clone https://github.com/tempestgf/dotfiles.git
