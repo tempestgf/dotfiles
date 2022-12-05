@@ -6,7 +6,7 @@
 [Information](#information) ·
 [Installation](#installation) ·
 [Cheat sheet](#cheat-sheet) ·
-[Support and Thankies](#support-and-thankies)
+[Support](#support)
 
 **i3wm** is very simple, old tiling window manager, but it is still powerful and highly configurable. Although it takes time and effort to configure it, but I'm very satisfied with the result.
 
@@ -14,9 +14,9 @@ This is the third version of my dotfiles, as I gain more experience I am able to
 
 ![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/aperturadesk.png?raw=true)
 
-[![](https://img.shields.io/github/stars/tempestgf/dotfiles?color=dd864a&labelColor=1b1b25&style=for-the-badge)](https://github.com/tempestgf/dotfiles/stargazers)
-[![](https://img.shields.io/github/forks/tempestgf/dotfiles?color=bf616a&labelColor=1b1b25&style=for-the-badge)](https://github.com/tempestgf/dotfiles/network/members)
-[![](https://img.shields.io/github/license/tempestgf/dotfiles?color=999f63&labelColor=1b1b25&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![](https://img.shields.io/github/stars/tempestgf/dotfiles?color=800101&style=for-the-badge)](https://github.com/tempestgf/dotfiles/stargazers)
+[![](https://img.shields.io/github/forks/tempestgf/dotfiles?color=800101&style=for-the-badge)](https://github.com/tempestgf/dotfiles/network/members)
+[![](https://img.shields.io/github/license/tempestgf/dotfiles?color=800101&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.html)
 ## Information
 
 - **OS:** [Arch Linux](https://archlinux.org)
