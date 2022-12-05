@@ -73,11 +73,11 @@ Detailed information and dependencies
 
 ## Showcase
 
-|neofetch|vsc & ncmpcpp & cava|
+|Desktop|rofi & dunst|
 |-|-|
-|![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/1.png?raw=true)|![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/2.png?raw=true)|
-|rofi & dunst|nemo & nvim & ranger|
-|![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/3.png?raw=true)|![](https://github.com/Keyitdev/screenshots/blob/master/dotfiles/v3/screenshots/4.png?raw=true)|
+|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/desktop.png?raw=true)|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/rofi-dunst.png?raw=true)|
+|nvim|Bento|
+|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/nvim.png?raw=true)|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/Bento.png?raw=true)|
 |i3lock-color|sddm|
 |![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/i3lock-color.png?raw=true)|![](https://github.com/tempestgf/dotfiles/blob/main/Showcase/sddm.png?raw=true)|
 
