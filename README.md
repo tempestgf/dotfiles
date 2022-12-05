@@ -6,7 +6,9 @@
 [Information](#information) ·
 [Installation](#installation) ·
 [Cheat sheet](#cheat-sheet) ·
-[Support](#support)
+[Support](#support) ·
+[Cat](https://github.com/tempestgf/dotfiles/blob/main/READMEcat.md) 
+
 
 **i3wm** is very simple, old tiling window manager, but it is still powerful and highly configurable. Although it takes time and effort to configure it, but I'm very satisfied with the result.
 
