@@ -1,6 +1,6 @@
 # Tempestgf Dotfiles  
 
-**Arch Linux** dotfiles.
+**[Arch Linux](https://github.com/tempestgf/ArchLinux)** dotfiles.
 
 [Showcase](#showcase) ·
 [Information](#information) ·
@@ -90,58 +90,61 @@ chmod +x install-on-arch.sh
 
 1. Clone this repository.
     ```sh
-    git clone -b v3 --depth 1 https://www.github.com/keyitdev/dotfiles.git
+    git clone https://github.com/tempestgf/dotfiles.git
     ```
-
-2. Install an AUR helper (for example, `yay` in `"$HOME"/.srcs`).
+    
+2. Install dependencies.
     ```sh
-    git clone https://aur.archlinux.org/yay.git "$HOME"/.srcs/yay
-	cd "$HOME"/.srcs/yay/ && makepkg -si
+    sudo pacman --noconfirm -Sy acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit libcurl-gnutls dbus dbus-python python-pip python3 cmake qt5-graphicaleffects spotify-launcher python3 wget mpd kitty btop dunst feh firefox i3-gaps libnotify neofetch neovim picom polybar ranger rofi scrot slop xclip zsh lsd bat
     ```
-
-3. Install dependencies.
+3. Install AUR dependencies from source.
     ```sh
-    yay -S --needed acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit alacritty btop code dunst feh ffcast firefox i3-gaps i3lock-color i3-resurrect libnotify light mpc mpd ncmpcpp nemo neofetch neovim oh-my-zsh-git pacman-contrib papirus-icon-theme picom polybar ranger rofi scrot slop xclip zathura zathura-pdf-mupdf zsh   
-    ```
+	Oh-my-zsh
+	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+	git clone https://aur.archlinux.org/i3lock-color.git
+	cd i3lock-color 
+	makepkg -si
+	cd
+
+	PlugInstall Nvim
+	sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+	       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    ```
 4. Create default directories.
     ```sh
-    mkdir -p "$HOME"/.config
-    mkdir -p  /usr/local/bin
-    mkdir -p  /usr/share/themes
-    mkdir -p "$HOME"/Pictures/wallpapers
+	mkdir -p "$HOME"/.config
+	mkdir -p  /usr/local/bin
+	mkdir -p "$HOME"/Pictures
     ```
 
-5. Copy configs, scripts, fonts, gtk theme, wallpaper, vsc configs, zsh config.
+5. Get inside the repository and copy configs (scripts, fonts, gtk theme, wallpaper, zsh config, ...) giving them the right permissions.
     ```sh
-    cp -r ./config/* "$HOME"/.config
-    sudo cp -r ./scripts/* /usr/local/bin
-    sudo cp -r ./fonts/* /usr/share/fonts
-    sudo cp -r ./tokyonight_gtk /usr/share/themes
-    cp -r ./wallpapers/* "$HOME"/Pictures/wallpapers
-    cp -r ./vsc/* "$HOME"/.vscode-oss/extensions
-    cp ./vsc/settings.json "$HOME"/.config/Code\ -\ OSS/User
-    sudo cp ./keyitdev.zsh-theme /usr/share/oh-my-zsh/custom/themes
-    cp ./.zshrc "$HOME"
+	cd dotfiles
+	find * -type f -exec chmod +x {} \;
+	cd .config/
+	find * -type f -exec chmod +x {} \; 
+	cd ..   
+	cp -r .config/* "$HOME"/.config
+	sudo cp -r fonts/* /usr/share/fonts
+	cp -r Pictures/* "$HOME"/Pictures
+	cp .p10k.zsh .zshrc "$HOME"
+	mv powerlevel10k/ .powerlevel10k/
+	cp -r .powerlevel10k/ "$HOME"
+	sudo cp -r sddm.conf /etc
+	sudo cp -r sddm-slice /usr/share/sddm/themes
     ```
 
-6. Make Light executable, set zsh as default shell, update nvim extensions, refresh font cache.
+6. Refresh: set zsh as default shell, update nvim extensions, refresh font cache.
     ```sh
-    sudo chmod +s /usr/bin/light
-    chsh -s /bin/zsh
-    sudo chsh -s /bin/zsh
-    nvim +PackerSync
-    fc-cache -fv
+	chsh -s /bin/zsh
+	sudo chsh -s /bin/zsh
+	fc-cache -fv
+	sudo cp -r scripts/* /usr/local/bin
+	nvim +PlugInstall
+	sudo systemctl enable mpd
+	systemctl start mpd
     ```
-
-8. Install sddm flower theme.
-    ```sh
-    sudo git clone https://github.com/keyitdev/sddm-flower-theme.git /usr/share/sddm/themes/sddm-flower-theme
-    sudo cp /usr/share/sddm/themes/sddm-flower-theme/Fonts/* /usr/share/fonts/
-    echo "[Theme]
-    Current=sddm-flower-theme" | sudo tee /etc/sddm.conf
-    ```
-
 ## Cheat sheet
 
 
@@ -206,22 +209,14 @@ Note: `Win` refers to the `Super/Mod` key.
 
 </details>
 
-## Support and Thankies
+## Support
 
-You can support me simply by dropping a **star** on **[github](https://github.com/Keyitdev/dotfiles/tree/v3)** or giving a **subscription** on **[YouTube](http://www.youtube.com/channel/UCVoGVyAP2sHPQyegwBMJKyQ?sub_confirmation=1)**.
-
-<!-- If you enjoyed it and would like to show your appreciation, you can **tip** using **[kofi]()** or **[paypal]()**. -->
-
-**Big thanks to:**
-[adi1090x](https://github.com/adi1090x),
-[Totoro](https://github.com/totoro-ghost).
-
-Thanks to all contributors! :D
+You can support me simply by dropping a **star** on **[github](https://github.com/tempestgf/dotfiles)**.
 
 ## Contributions
 
 Feel free to create issue or pull request.    
-If you need any help, you can ask questions here on **[discussions](https://github.com/Keyitdev/dotfiles/discussions/categories/q-a)** or contact me on **[discord](https://discord.com/users/908702082578665474)** / **[reddit](https://www.reddit.com/user/Keyitdev)**.
+If you need any help, you can ask questions here on **[discussions](https://github.com/Tempestgf/dotfiles)** or contact me on **[discord](https://discord.com/users/404362200623349762)** / **[reddit](https://www.reddit.com/user/Tempestgf)**.
 
 Distributed under the **[GPLv3+](https://www.gnu.org/licenses/gpl-3.0.html) License**.    
-Copyright (C) 2022 Keyitdev.
+CopyLeft (C) 2022 Tempestgf.
