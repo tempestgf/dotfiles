@@ -82,7 +82,7 @@ acpi alsa-utils base-devel curl git pulseaudio pulseaudio-alsa xorg xorg-xinit l
 
 Clone the repository.
 ```sh
-git clone -b v3 --depth 1 https://www.github.com/tempestgf/dotfiles.git
+git clone https://www.github.com/tempestgf/dotfiles.git
 cd dotfiles
 chmod +x install.sh
 ./install.sh
