@@ -45,7 +45,7 @@ sudo chsh -s /bin/zsh
 fc-cache -fv
 sudo cp -r scripts/* /usr/local/bin
 nvim +PlugInstall
-sudo systemctl enable mpd
-systemctl start mpd
+sudo systemctl enable mpd sddm
+systemctl start mpd sddm
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
