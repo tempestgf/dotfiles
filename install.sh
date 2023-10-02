@@ -49,3 +49,9 @@ sudo systemctl enable mpd sddm
 systemctl start mpd sddm
 
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+
+# Black Arch
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+sudo ./strap.sh
+sudo pacman -Syu --noconfirm
